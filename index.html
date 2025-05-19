@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Botler - WhatsApp Automation with AI</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; background-color: #f0f4f8; color: #111827; line-height: 1.6; }
+    header { background: linear-gradient(135deg, #3b82f6, #60a5fa); padding: 4rem 2rem; text-align: center; color: white; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+    header h1 { font-size: 3rem; font-weight: 700; margin-bottom: 1rem; }
+    header p { font-size: 1.25rem; color: #e0f2fe; }
+    .btn-primary { background: #111827; color: white; padding: 0.9rem 2rem; border: none; border-radius: 10px; font-weight: 600; cursor: pointer; text-decoration: none; display: inline-block; margin-top: 2rem; transition: background 0.3s; }
+    .btn-primary:hover { background: #374151; }
+    section { padding: 5rem 2rem; max-width: 1000px; margin: auto; text-align: center; }
+    section h2 { font-size: 2.5rem; margin-bottom: 1.5rem; color: #1e3a8a; }
+    section p { color: #4b5563; margin-bottom: 3rem; }
+    .steps { display: flex; flex-direction: column; gap: 2rem; margin-bottom: 3rem; }
+    .step { background: #ffffff; padding: 2rem; border-radius: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); transition: transform 0.2s; }
+    .step:hover { transform: translateY(-4px); }
+    .step h3 { margin-bottom: 0.75rem; color: #1f2937; font-size: 1.25rem; }
+    .use-cases { display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; }
+    .card { background: #ffffff; padding: 2rem; border-radius: 16px; width: 280px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); transition: transform 0.2s; }
+    .card:hover { transform: translateY(-5px); }
+    footer { background: #1f2937; padding: 3rem 2rem; text-align: center; font-size: 0.875rem; color: #d1d5db; margin-top: 4rem; }
+    footer a { color: #93c5fd; text-decoration: none; margin: 0 0.5rem; }
+    footer a:hover { text-decoration: underline; }
+    @media(min-width: 768px) {
+      .steps { flex-direction: row; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Turn WhatsApp Messages into Actions</h1>
+    <p>Botler uses AI to automate tasks from WhatsApp texts. Just send a message, and we’ll handle the rest.</p>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLScZYT3YFtr-oVgwBNw6mo0lS-dCoJ3i4GaRQW21UbVwj7NjlQ/viewform?usp=header" class="btn-primary" target="_blank">Request Early Access</a>
+</header>
+
+  <section>
+    <h2>How It Works</h2>
+    <div class="steps">
+      <div class="step">
+        <h3>1. Send a WhatsApp Message</h3>
+        <p>Start by messaging our dedicated number with a task like "Order me sushi".</p>
+      </div>
+      <div class="step">
+        <h3>2. Botler Understands It</h3>
+        <p>Our AI processes your message, extracts key info like what, where, and when.</p>
+      </div>
+      <div class="step">
+        <h3>3. We Trigger the Action</h3>
+        <p>Botler makes an API call to the right service—like a food delivery app—to complete your request.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Use Cases</h2>
+    <p>Botler works for various day-to-day tasks that you can automate by just texting.</p>
+    <div class="use-cases">
+      <div class="card">
+        <h3>🍽️ Food Orders</h3>
+        <p>Order meals from your favorite places by just texting.</p>
+      </div>
+      <div class="card">
+        <h3>💼 Appointments</h3>
+        <p>Book meetings, doctor visits, or salon appointments.</p>
+      </div>
+      <div class="card">
+        <h3>🚗 Ride Booking</h3>
+        <p>Message us to call a cab or schedule a pickup.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Why Botler?</h2>
+    <p>We make automation effortless and intelligent. Save time and stay focused on what matters.</p>
+    <div class="steps">
+      <div class="step">
+        <h3>AI-Powered Understanding</h3>
+        <p>We use GenAI to comprehend natural language in real time.</p>
+      </div>
+      <div class="step">
+        <h3>Seamless Integrations</h3>
+        <p>Connect with APIs of popular services without writing any code.</p>
+      </div>
+      <div class="step">
+        <h3>Save Time</h3>
+        <p>No app switching. Stay in WhatsApp and let us do the work.</p>
+      </div>
+    </div>
+    <a href="#" class="btn-primary">Start Automating</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Botler. All rights reserved.</p>
+    <p><a href="#">Privacy</a> | <a href="#">Terms</a> | <a href="#">Contact</a></p>
+  </footer>
+</body>
+</html>
